@@ -388,11 +388,25 @@ span {
     color: var(--second-bg-color);
 }
 
+
 .contact {
+    position: relative;
     padding: 50px;
     background-color: var(--second-bg-color);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Tambahkan properti ini */
+    align-items: center; 
+    
   }
+
+  .contact-form {
+   max-width: 600px;
+   width: 100%;
+   margin: 0 auto;
+  }
+
 
   ::placeholder {
     color: lightgray;
@@ -401,15 +415,18 @@ span {
   .contact h2 {
     margin-bottom: 20px;
   }
-  
+
   .contact input,
   .contact textarea {
+    
+    width: 600px;
     border-radius: 2rem;
     display: block;
     color:white;
     background-color: var(--bg-color);
     margin-bottom: 20px;
-    width: 100%;
+    
+    max-width: 600px;
     padding: 10px;
   }
   
@@ -536,6 +553,11 @@ span {
     .contact{
         width: 100%;
     }
+
+    .contact-form {
+        max-width: 100%;
+        padding: 0 20px;
+      }
 }
 
 @media (max-width: 450px) {
