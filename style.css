@@ -278,6 +278,11 @@ span {
     text-align: center; 
 }
 
+.portfolio-layer h3{
+    font-size: 2rem;
+    text-align: center; 
+}
+
 .portfolio-layer p{
     font-size: 1.4rem;
     margin: .3rem 0 1rem;
@@ -310,6 +315,10 @@ span {
 }
 
 .certificate .sertif{
+    font-size: 3rem ;
+}
+
+.portfolio .project{
     font-size: 3rem ;
 }
 
