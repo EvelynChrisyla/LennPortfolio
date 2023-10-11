@@ -754,6 +754,10 @@ span {
 }
 
 @media (max-width: 600px) {
+    #menu-icon {
+        display: block;
+    }
+    
     .contact {
         width: 100%;
     }
