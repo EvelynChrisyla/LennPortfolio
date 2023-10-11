@@ -376,9 +376,9 @@ span {
     color: #ccced2;
 }
 .certificate-layer p{
-    text-align: center; 
     font-size: 1.4rem;
     margin: .3rem 0 1rem;
+    text-align: justify;
 }
 
 .certificate-layer .link a{
@@ -477,6 +477,10 @@ span {
         padding-bottom: 7rem;
     }
 
+    .certificate{
+        padding-bottom: 7rem;
+    }
+
     .contact {
         min-height:auto;
     }
@@ -548,6 +552,14 @@ span {
     }
     
     .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .certificate h2{
+        margin-bottom: 3rem;
+    }
+    
+    .certificate-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -622,6 +634,10 @@ span {
         padding-bottom: 7rem;
     }
 
+    .certificate {
+        padding-bottom: 7rem;
+    }
+
     .contact {
         min-height: auto;
     }
@@ -637,25 +653,27 @@ span {
     }
 
     .navbar {
+         display: none;
+        flex-direction: column;
         position: absolute;
         top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: var(--bg-color);
-        border-top: 1rem solid rgba(0, 0, 0, 0.2);
+         left: 0;
+         width: 100%;
+         padding: 1rem 3%;
+         background: var(--bg-color);
+         border-top: 1rem solid rgba(0, 0, 0, 0.2);
         box-shadow: 0 .5 1rem rgba(0, 0, 0, 0.2);
-        display: none;
     }
-
+    
     .navbar.active {
-        display: block;
+        display: flex;
     }
-
+    
     .navbar a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+        width: 100%; /* Take up the full width */
     }
 
     .home {
@@ -671,6 +689,11 @@ span {
     }
 
     .home-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .about img {
         width: 70vw;
         margin-top: 4rem;
     }
@@ -692,13 +715,24 @@ span {
         margin-bottom: 3rem;
     }
 
+    .certificate h2 {
+        margin-bottom: 3rem;
+    }
+
     .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .certificate-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 617px) {
     .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+    .certificate-container {
         grid-template-columns: 1fr;
     }
 }
