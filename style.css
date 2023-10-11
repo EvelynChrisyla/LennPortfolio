@@ -754,6 +754,10 @@ span {
 }
 
 @media (max-width: 600px) {
+    .header {
+        padding: 2rem 3%;
+    }
+    
     #menu-icon {
         display: block;
         position: absolute;
