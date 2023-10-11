@@ -652,6 +652,8 @@ span {
 @media (max-width: 768px) {
     #menu-icon {
         display: block;
+        font-size: 3.6rem;
+        cursor: pointer;
     }
 
     .navbar {
