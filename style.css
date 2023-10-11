@@ -731,9 +731,10 @@ span {
 
     .contact input,
     .contact textarea {
-        width: 100%;
+       width: 90%;
         max-width: none;
         padding: 10px;
+        margin: 10px;
     }
 
     .contact button {
@@ -762,13 +763,15 @@ span {
 
     .contact input,
     .contact textarea {
-        width: calc(100% - 20px);
+        width: 90%;
         max-width: none;
-        padding: 10px;
+        padding: 1.5rem;
+        margin: 10px; 
     }
 
+
     .contact button {
-        width: calc(100% - 20px);
+        width: 80%;
     }
 }
 
