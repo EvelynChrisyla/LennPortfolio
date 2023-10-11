@@ -562,6 +562,9 @@ span {
     .certificate-container {
         grid-template-columns: repeat(2, 1fr);
     }
+    .contact form {
+        max-width: 90%;
+    }
 }
 /* 
 @media (max-width: 617px) {
