@@ -756,8 +756,12 @@ span {
 @media (max-width: 600px) {
     #menu-icon {
         display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
     }
-    
+
     .contact {
         width: 100%;
     }
