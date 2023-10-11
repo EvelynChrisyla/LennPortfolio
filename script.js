@@ -56,13 +56,6 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
-
-
-
-
-
-
-
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent form submission
   
